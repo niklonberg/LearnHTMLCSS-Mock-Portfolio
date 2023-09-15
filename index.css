@@ -9,3 +9,23 @@
   --text-color: white;
   --gray: #999999;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  background-color: var(--dark-blue);
+  color: white; /* temporary */
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
