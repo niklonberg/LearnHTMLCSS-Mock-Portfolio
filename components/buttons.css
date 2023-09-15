@@ -4,13 +4,13 @@
   box-sizing: border-box;
   outline: revert;
   cursor: pointer;
-  opacity: 0.8;
-  transition: opacity 200ms, translate 200ms;
   line-height: 1.5;
   letter-spacing: 2px;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 200ms, translate 200ms;
 }
 
 .btn:hover {
