@@ -2,11 +2,15 @@
   all: unset;
   display: inline-block;
   box-sizing: border-box;
-  text-transform: uppercase;
+  outline: revert;
   cursor: pointer;
-  font-size: 0.875rem;
   opacity: 0.8;
   transition: opacity 200ms, translate 200ms;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .btn:hover {
