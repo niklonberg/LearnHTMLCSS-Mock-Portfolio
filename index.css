@@ -1,6 +1,8 @@
 @import url(components/container.css);
 @import url(components/helpers.css);
 @import url(components/typography.css);
+@import url(components/buttons.css);
+@import url(components/forms.css);
 
 :root {
   --dark-blue: #130c24;
