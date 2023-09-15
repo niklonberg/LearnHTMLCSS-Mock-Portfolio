@@ -39,3 +39,13 @@
   height: 4px;
   border: 1px solid var(--primary);
 }
+
+.btn--raised {
+  background-color: var(--primary);
+  color: var(--black);
+  padding: 0.5em 1em;
+  padding-right: 2.5em;
+  background-image: url(assets/icons/arrow-right.svg);
+  background-repeat: no-repeat;
+  background-position: right 0.75em center;
+}
