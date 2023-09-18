@@ -2,4 +2,8 @@
   all: inherit;
   outline: revert;
   box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  bottom: 25px;
+  left: calc(50% - 48px / 2);
 }
