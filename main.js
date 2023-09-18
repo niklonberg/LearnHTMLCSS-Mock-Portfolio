@@ -5,11 +5,7 @@
 const toggleTheme = document.querySelector("#toggle-theme");
 
 toggleTheme.addEventListener("click", () => {
-  if (!document.documentElement.classList.contains("light-theme")) {
-    document.documentElement.classList.add("light-theme");
-  } else {
-    document.documentElement.classList.remove("light-theme");
-  }
+  document.documentElement.classList.toggle("light-theme");
 });
 
 const prefersLight = window.matchMedia("(prefers-color-scheme:dark)").matches;
