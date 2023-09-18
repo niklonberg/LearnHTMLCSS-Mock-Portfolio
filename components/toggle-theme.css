@@ -8,9 +8,14 @@
   z-index: 1;
   cursor: pointer;
   padding: 10px;
-  transition: translate 200ms;
+  transition: 300ms;
 }
 
 #toggle-theme:active {
   translate: 1px 1px;
+}
+
+#toggle-theme:hover {
+  outline: 3px solid var(--primary);
+  border-radius: 3px;
 }
