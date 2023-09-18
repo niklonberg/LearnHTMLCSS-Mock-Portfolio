@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.nav__links {
+.nav--links {
   list-style: none;
   display: flex;
   gap: 10px;
