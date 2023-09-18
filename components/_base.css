@@ -45,8 +45,16 @@ select {
   color: var(--black);
 }
 
+/* media querys */
+
 @media (max-width: 37.5rem) {
   :root {
     --gap: 30px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
   }
 }

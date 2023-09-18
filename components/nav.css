@@ -10,3 +10,9 @@
   display: flex;
   gap: 10px;
 }
+
+@media (max-width: 48.5rem) {
+  .nav--links li:not(:last-child) {
+    display: none;
+  }
+}
