@@ -1,0 +1,28 @@
+:root {
+  --primary: #f2d544;
+  --dark-blue: #130c24;
+  --black: #232020;
+  --gray: #999999;
+  --beige: #f5f5f1;
+  --text-color: white;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  background-color: var(--dark-blue);
+  color: white; /* temporary */
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
