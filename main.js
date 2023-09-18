@@ -14,6 +14,11 @@ if (prefersLight) {
   document.documentElement.classList.add("light-theme");
 }
 
-const downArrow = document.querySelector("#down-arrow");
+const downArrow = document.querySelector("#scroll-down");
+const aboutMeSect = document.querySelector('#about-me');
 
-downArrow.addEventListener("click", () => {});
+downArrow.addEventListener("click", () => {
+  window.scrollTo({
+    top:
+  })
+});
