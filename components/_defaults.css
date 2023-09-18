@@ -1,0 +1,13 @@
+a {
+  color: var(--anchor-color);
+  opacity: 0.8;
+  transition: opacity 300ms;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+p {
+  color: var(--gray-light);
+}
