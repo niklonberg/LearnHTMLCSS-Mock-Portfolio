@@ -8,7 +8,7 @@ toggleTheme.addEventListener("click", () => {
   document.documentElement.classList.toggle("light-theme");
 });
 
-const prefersLight = window.matchMedia("(prefers-color-scheme:dark)").matches;
+const prefersLight = window.matchMedia("(prefers-color-scheme:light)").matches;
 
 if (prefersLight) {
   document.documentElement.classList.add("light-theme");
