@@ -13,3 +13,7 @@ const prefersLight = window.matchMedia("(prefers-color-scheme:light)").matches;
 if (prefersLight) {
   document.documentElement.classList.add("light-theme");
 }
+
+const downArrow = document.querySelector("#down-arrow");
+
+downArrow.addEventListener("click", () => {});
