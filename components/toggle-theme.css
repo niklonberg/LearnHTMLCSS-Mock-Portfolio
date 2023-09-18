@@ -1,11 +1,14 @@
 #toggle-theme {
-  all: unset;
+  all: inherit;
+  outline: revert;
+  box-sizing: border-box;
   position: fixed;
   top: 5px;
   right: 5px;
   z-index: 1;
   cursor: pointer;
   padding: 10px;
+  transition: translate 200ms;
 }
 
 #toggle-theme:active {
