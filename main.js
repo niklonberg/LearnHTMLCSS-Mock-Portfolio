@@ -15,10 +15,10 @@ if (prefersLight) {
 }
 
 const downArrow = document.querySelector("#scroll-down");
-const aboutMeSect = document.querySelector('#about-me');
+const aboutMeSect = document.querySelector("#about-me");
 
 downArrow.addEventListener("click", () => {
   window.scrollTo({
-    top:
-  })
+    top: aboutMeSect.offsetTop - 20,
+  });
 });
