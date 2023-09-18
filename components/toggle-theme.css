@@ -3,7 +3,11 @@
   position: fixed;
   top: 5px;
   right: 5px;
+  z-index: 1;
   cursor: pointer;
   padding: 10px;
-  background-color: red;
+}
+
+#toggle-theme:active {
+  translate: 1px 1px;
 }
