@@ -1,0 +1,9 @@
+#toggle-theme {
+  all: unset;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  padding: 10px;
+  background-color: red;
+}
