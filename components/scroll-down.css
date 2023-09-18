@@ -1,2 +1,5 @@
 #scroll-down {
+  all: inherit;
+  outline: revert;
+  box-sizing: border-box;
 }
