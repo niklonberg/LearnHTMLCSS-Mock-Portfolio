@@ -28,6 +28,15 @@ html {
   color: var(--text-color);
 }
 
+html.light-theme {
+  background-color: var(--beige);
+  --text-color: var(--black);
+  --gray-light: var(--gray-dark);
+  --light-icon: var(--black);
+  --dark-icon: white;
+  --anchor-color: var(--black);
+}
+
 body {
   font-family: "Poppins", sans-serif;
   margin: 0;
