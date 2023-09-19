@@ -1,0 +1,11 @@
+#skills {
+  padding-left: 0;
+}
+
+.skill {
+  border: 1px solid var(--gray);
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
