@@ -35,6 +35,7 @@ html.light-theme {
   --light-icon: var(--black);
   --dark-icon: white;
   --anchor-color: var(--black);
+  --primary: #af9305;
 }
 
 body {
