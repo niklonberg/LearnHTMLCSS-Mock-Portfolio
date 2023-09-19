@@ -2,14 +2,22 @@
   display: grid;
   grid-template-columns: 300px 1fr;
   gap: var(--gap);
+  place-items: center;
 }
 
 .portfolio-img {
   border-radius: 50%;
+  width: clamp(175px, 25vw, 300px);
+  height: auto;
 }
 
-@media (max-width: 37.5rem) {
+@media (max-width: 42.5rem) {
   .portfolio-piece {
     grid-template-columns: 1fr;
+  }
+
+  .portfolio-img {
+    width: 175px;
+    height: auto;
   }
 }
