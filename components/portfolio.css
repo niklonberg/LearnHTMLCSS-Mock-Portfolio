@@ -1,0 +1,6 @@
+.portfolio-piece {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: var(--gap);
+  place-items: center;
+}
