@@ -8,3 +8,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
+
+#scroll-down svg {
+  fill: var(--dark-icon);
+}
