@@ -1,8 +1,7 @@
 .portfolio-piece {
-  display: grid;
-  grid-template-columns: 300px 1fr;
+  display: flex;
   gap: var(--gap);
-  place-items: center;
+  align-items: center;
   margin-bottom: 100px;
 }
 
@@ -18,11 +17,17 @@
 
 @media (max-width: 42.5rem) {
   .portfolio-piece {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    gap: calc(var(--gap) / 2);
+    margin-bottom: 50px;
   }
 
   .portfolio-img {
     width: 175px;
     height: auto;
+  }
+
+  .portfolio-piece:nth-child(odd) .portfolio-img {
+    order: 0;
   }
 }
