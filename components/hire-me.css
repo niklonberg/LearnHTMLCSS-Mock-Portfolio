@@ -1,8 +1,10 @@
-#contact-info {
+#contact-address,
+#contact-email {
   display: flex;
   gap: 10px;
 }
 
-#contact-info p:first-child {
-  margin-top: 0;
+#contact-address svg,
+#contact-email svg {
+  margin-top: 18px;
 }
