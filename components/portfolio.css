@@ -3,12 +3,17 @@
   grid-template-columns: 300px 1fr;
   gap: var(--gap);
   place-items: center;
+  margin-bottom: 100px;
 }
 
 .portfolio-img {
   border-radius: 50%;
   width: clamp(175px, 25vw, 300px);
   height: auto;
+}
+
+.portfolio-piece:nth-child(odd) .portfolio-img {
+  order: 1;
 }
 
 @media (max-width: 42.5rem) {
