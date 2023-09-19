@@ -11,7 +11,8 @@
 
 #scroll-down svg {
   fill: var(--dark-icon);
-  transition: fill 300ms;
+  transition: fill 700ms;
+  animation: bounce 2s infinite cubic-bezier(0.37, 0, 0.63, 1);
 }
 
 #scroll-down svg:hover {
