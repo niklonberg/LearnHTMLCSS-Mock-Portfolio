@@ -11,4 +11,9 @@
 
 #scroll-down svg {
   fill: var(--dark-icon);
+  transition: fill 300ms;
+}
+
+#scroll-down svg:hover {
+  fill: var(--light-icon);
 }
