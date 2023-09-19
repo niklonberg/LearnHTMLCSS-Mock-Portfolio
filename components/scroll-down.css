@@ -17,3 +17,15 @@
 #scroll-down svg:hover {
   fill: var(--light-icon);
 }
+
+@keyframes bounce {
+  0% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -15px;
+  }
+  100% {
+    translate: 0 0;
+  }
+}
