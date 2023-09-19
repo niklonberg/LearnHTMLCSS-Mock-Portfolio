@@ -1,0 +1,8 @@
+#contact-info {
+  display: flex;
+  gap: 10px;
+}
+
+#contact-info p:first-child {
+  margin-top: 0;
+}
