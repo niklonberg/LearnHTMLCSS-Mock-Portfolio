@@ -15,3 +15,8 @@ p {
 strong {
   font-weight: inherit;
 }
+
+figure,
+blockquote {
+  margin: 0;
+}
