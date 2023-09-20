@@ -1,4 +1,7 @@
 #contact {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: var(--gap);
 }
 
 #contact-address,
@@ -10,4 +13,10 @@
 #contact-address svg,
 #contact-email svg {
   margin-top: 18px;
+}
+
+.hire-action {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
