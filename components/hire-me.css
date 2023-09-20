@@ -20,3 +20,9 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+@media (max-width: 37.5rem) {
+  #contact {
+    grid-template-columns: 1fr;
+  }
+}
