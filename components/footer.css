@@ -1,0 +1,8 @@
+#copyright {
+  display: flex;
+  gap: 10px;
+}
+
+#copyright p {
+  margin-block: 0;
+}
