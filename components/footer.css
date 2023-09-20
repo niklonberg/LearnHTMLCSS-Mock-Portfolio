@@ -6,3 +6,14 @@
 #copyright p {
   margin-block: 0;
 }
+
+#social-links {
+  display: flex;
+  align-items: center;
+}
+
+#social-links ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
