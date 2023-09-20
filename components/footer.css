@@ -1,6 +1,12 @@
+#footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 #copyright {
   display: flex;
   gap: 10px;
+  flex: 1;
 }
 
 #copyright p {
@@ -8,6 +14,7 @@
 }
 
 #social-links {
+  justify-self: end;
   display: flex;
   align-items: center;
 }
@@ -16,4 +23,16 @@
   list-style: none;
   display: flex;
   gap: 10px;
+}
+
+@media (max-width: 37.5rem) {
+  #footer-content {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 20px;
+  }
+
+  #social-links {
+    justify-self: center;
+  }
 }
